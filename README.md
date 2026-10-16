@@ -1,4 +1,4 @@
-# Astro Obsidian Toolkit #
+# Astro Obsidian Toolkit
 
 A package with useful functions for using an [Obsidian][ob] vault as an [Astro][as] content collection.
 
@@ -12,5 +12,3 @@ npm install --save @oddevan/astro-obsidian-toolkit
 ```
 
 ## Available Functions
-
-

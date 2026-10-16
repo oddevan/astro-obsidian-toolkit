@@ -1,40 +1,42 @@
 {
-  "name": "@oddevan/astro-obsidian-toolkit",
-  "version": "1.0.0",
-  "description": "Tools for using an Obsidian vault as an Astro content collection",
-  "keywords": [
-    "astro",
-    "obsidian",
-    "markdown",
-    "satteri"
-  ],
-  "homepage": "https://github.com/oddevan/astro-obsidian-toolkit#readme",
-  "bugs": {
-    "url": "https://github.com/oddevan/astro-obsidian-toolkit/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oddevan/astro-obsidian-toolkit.git"
-  },
-  "license": "MIT",
-  "author": "Evan Hildreth <me@eph.me>",
-  "type": "module",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@tsconfig/recommended": "^1.0.13",
-    "@types/node": "^26.6.5",
-    "typescript": "^7.0.2"
-  },
-  "dependencies": {
-    "github-slugger": "^2.0.0",
-    "satteri": "^0.10.5"
-  },
-  "peerDependencies": {
-    "astro": "^7.4.0",
-    "satteri": "^0.10.5"
-  }
+	"name": "@oddevan/astro-obsidian-toolkit",
+	"version": "1.0.0",
+	"description": "Tools for using an Obsidian vault as an Astro content collection",
+	"keywords": [
+		"astro",
+		"obsidian",
+		"markdown",
+		"satteri"
+	],
+	"homepage": "https://github.com/oddevan/astro-obsidian-toolkit#readme",
+	"bugs": {
+		"url": "https://github.com/oddevan/astro-obsidian-toolkit/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oddevan/astro-obsidian-toolkit.git"
+	},
+	"license": "MIT",
+	"author": "Evan Hildreth <me@eph.me>",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc",
+		"format": "prettier --write .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.13",
+		"@types/node": "^26.6.5",
+		"prettier": "^3.9.10",
+		"typescript": "^7.0.2"
+	},
+	"dependencies": {
+		"github-slugger": "^2.0.0",
+		"satteri": "^0.10.5"
+	},
+	"peerDependencies": {
+		"astro": "^7.4.0",
+		"satteri": "^0.10.5"
+	}
 }

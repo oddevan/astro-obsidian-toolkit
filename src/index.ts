@@ -1,2 +1,2 @@
-export { obsidianTitle } from "./obsidian-title.js";
-export { obsidianFilter } from "./obsidian-filter.js";
+export { obsidianTitle } from './obsidian-title.js';
+export { obsidianFilter } from './obsidian-filter.js';
