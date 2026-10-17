@@ -5,7 +5,10 @@ A package with useful functions for using an [Obsidian][ob] vault as an [Astro][
 [ob]: https://obsidian.md/
 [as]: https://astro.build/
 
-## Install (eventually)
+The goal of this package is to provide useful functions and tools for using an Obsidian vault with Astro while letting
+both projects function in their own way. This is not an all-in-one solution; this is a building block for a project.
+
+## Install
 
 ```shell
 npm install --save @oddevan/astro-obsidian-toolkit

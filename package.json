@@ -28,6 +28,7 @@
 		"test": "vitest run"
 	},
 	"devDependencies": {
+		"@changesets/cli": "^3.0.3",
 		"@tsconfig/recommended": "^1.0.13",
 		"@types/node": "^26.6.5",
 		"prettier": "^3.9.10",
