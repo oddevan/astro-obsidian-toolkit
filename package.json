@@ -1,6 +1,6 @@
 {
 	"name": "@oddevan/astro-obsidian-toolkit",
-  "version": "1.0.0",
+	"version": "1.0.0",
 	"description": "Tools for using an Obsidian vault as an Astro content collection",
 	"keywords": [
 		"astro",
@@ -29,6 +29,7 @@
 		"local-release": "changeset version && changeset publish"
 	},
 	"devDependencies": {
+		"@changesets/changelog-github": "^1.0.1",
 		"@changesets/cli": "^3.0.3",
 		"@tsconfig/recommended": "^1.0.13",
 		"@types/node": "^26.6.5",
