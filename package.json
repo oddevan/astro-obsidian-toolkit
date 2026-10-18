@@ -1,6 +1,6 @@
 {
 	"name": "@oddevan/astro-obsidian-toolkit",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Tools for using an Obsidian vault as an Astro content collection",
 	"keywords": [
 		"astro",
@@ -31,9 +31,7 @@
 		"format": "prettier --write .",
 		"check-format": "prettier --check .",
 		"test": "vitest run",
-		"tag": "changeset add",
-		"prepublishOnly": "npm run build && npm run check-format && npm run test",
-		"local-release": "changeset version && changeset publish"
+		"prepublishOnly": "npm run build && npm run check-format && npm run test"
 	},
 	"devDependencies": {
 		"@changesets/changelog-github": "^1.0.1",
